@@ -2,7 +2,7 @@
 
 This project was created using the dotnet [SAFE Template](https://safe-stack.github.io/docs/template-overview/). The code is not clean from orinal elements of template, my code was add in the original code and some parts updated. It is not complete as well as error free too. All Routines are commented with a description of its functionalities. I took this test with learn objetives, and some aspects was great, but frustrating some times. 
 
-Not complete is the most important. However I simply did haven't any knowledge on F# or SAFE. Sometimes the information is mismatched or doesn't match the version. I looked for a need-focused approach to language learning. Needing something, the search was directed to that specific need. Maybe this could have been the problem? I can't say for sure. I'm letting this test knowing a little bit more from them. For shure give my best with the time and information that had. 
+Not complete is the most important. However I simply did haven't any knowledge on F# or SAFE. Sometimes the information is mismatched or doesn't match the framework version. I looked for a need-focused approach to language learning. Needing something, the search was directed to that specific need. Maybe this could have been the problem? I can't say for sure. I'm letting this test knowing a little bit more from them. For shure give my best with the time and information that had. 
 
 The main contribuitions was made on the folowing files 
 
@@ -56,7 +56,7 @@ The main table have the following SQL structure:
                     cboe_type character(10)
                 )
 ```
-The idea was to build the internal functions and pass parameters in the calls to them. I did can't do that, to this reason let the parameters fixed internally. The parameters are the SQL string queries e database names to support database migrations. In this point the code is performing this function, but you must change this parameter internally by changing on variable as shown below `(line 27 from Server.fs)`. By changing this value, changes all answers from database routines from `DatabaAccess.fs` .
+The idea was focus on build the internal server side functions and pass parameters in the calls to them. I did can't do that, to this reason let the parameters fixed internally. The parameters are the SQL string queries e database names to support database migrations. In this point the code is performing this function, but you must change this parameter internally by changing on variable as shown below `(line 27 from Server.fs)`. By changing this value, changes all answers from database routines from `DatabaAccess.fs` .
 ```bash
 let dB_test = "constancy"
 ```
